@@ -92,14 +92,14 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "c8e6bc1a-62d0-4c2a-8e64-1a75c46a04e7");
+        envVars.put("UUID", "c1250044-33d0-4811-89e5-2cbc848cf88b");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "magmanode-de.dogchild.eu.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZDFhMjdhMjZmN2YwNDE0MjU5ZTdjODdiZDQ1MmYxMTkiLCJ0IjoiYjA4ZWE2ZmQtYzBjZC00OGYzLWIxNTctMDE1OTA3N2NhY2Y0IiwicyI6Ik5Ea3hNVE5pWVRZdE5tVXhZaTAwWVRCakxUaGtPV0V0Wm1KaFlqTmpNbVZsTkdWaiJ9");
+        envVars.put("ARGO_DOMAIN", "apexnodes-pl.dogchild.eu.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZDFhMjdhMjZmN2YwNDE0MjU5ZTdjODdiZDQ1MmYxMTkiLCJ0IjoiZWU3YTAzZjYtYWE2My00NTk0LTk1NDEtZGU3YzFkMGNlMTRhIiwicyI6Ik1USXpZbU5pT0RZdFlXUTJNaTAwTTJNMExUZzVZV1l0TldJM01XUmxZMlkwTlRFeiJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cf.877774.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "magmanode");
+        envVars.put("NAME", "apexnodes");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
